@@ -8,9 +8,9 @@ var timer := 0
 var counter := 0
 
 func _ready():
-	$MinSpeed.drag_ended.connect(update_min)
-	$MaxSpeed.drag_ended.connect(update_max)
-	$SpawnInterval.drag_ended.connect(update_spawn)
+	$MinSpeed.value_changed.connect(update_min)
+	$MaxSpeed.value_changed.connect(update_max)
+	$SpawnInterval.value_changed.connect(update_spawn)
 	update_min(false)
 	update_max(false)
 	update_spawn(false)
