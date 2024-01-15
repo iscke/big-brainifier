@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dn4t6aem2afi2"]
+
+[ext_resource type="Script" path="res://thought.gd" id="1_pod53"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_pod53")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 167.0
+offset_bottom = 40.0
+text = "this is a line of text..."
+fit_content = true
+scroll_active = false

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce6s101plkf7x"]
+
+[ext_resource type="Script" path="res://ThoughtSpawner.gd" id="1_td5ea"]
+
+[node name="ThoughtSpawner" type="Node2D"]
+script = ExtResource("1_td5ea")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+gizmo_extents = 136.1
